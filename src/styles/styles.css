@@ -1,0 +1,95 @@
+h1, h2, h3, p, a {
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+nav {
+    background-color: teal;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row wrap;
+    align-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 2rem;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+body {
+    margin: 6rem;
+}
+
+html {
+    background: url("/src/images/bible.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#header-h1 {
+    color: black;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#test-btn {
+    background-color: teal;
+    font-size: 1.1em;
+    padding: 0.3em 0.5em 0.3em 0.5em;
+
+}
+
+#test-btn a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.main-description {
+    margin: 3em 0 3em 0;
+    background-color: lightcoral;
+}
+
+.attributes {
+    background-color: lightblue;
+}
+
+.attributes-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.attribute-img {
+    width: 4em;
+}
+
+.attribute-item {
+    height: 12em;
+    width: 12em;
+    padding: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 2em;
+    box-shadow: rgba(200, 203, 207, 0.5) 0px 0px 15px 0px;    
+}
+
+.attribute-item:hover { 
+    transform: scale(1.06); 
+}

@@ -1,0 +1,6 @@
+default:
+  - "http-server"
+  - "browserify"
+  - "watch"
+  - "bgShell:launchAPI"
+
